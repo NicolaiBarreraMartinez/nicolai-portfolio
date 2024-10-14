@@ -57,7 +57,7 @@ const Contact = () => {
             <FaPhone className="text-3xl text-[#FF7A29]" />
             <div>
               <p className="text-lg font-semibold">Phone</p>
-              <a href="tel:+1234567890" className="hover:underline">
+              <a href="tel:+573008735048" className="hover:underline">
                 +57 3008735048
               </a>
             </div>
