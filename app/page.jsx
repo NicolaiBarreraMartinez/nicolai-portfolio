@@ -5,6 +5,7 @@ import Social from "@/components/Social";
 import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
 
+
 const Home = () => {
   return (
     <section className="h-full">
@@ -22,13 +23,22 @@ const Home = () => {
             </p>
             {/* Btn Socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
-            <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
-              <span>Download CV</span>
-              <FiDownload className="text-xl" />
-            </Button>
-             <div className="mb-8 xl:mb-0">
-              <Social containerStyles="flex gap-6" iconStyles="w-9 h-9 border border-[#FF7A29] rounded-full flex justify-center items-center text-[#FF7A29] text-base hover:bg-[#FF7A29] hover:text-primary hover:trasnsition-all duration-500"></Social>
-             </div>
+              <a
+                href="/assets/resume/Nicolai_Barrera_MartinezCV.pdf" 
+                download 
+              >
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="uppercase flex items-center gap-2"
+                >
+                  <span>Download CV</span>
+                  <FiDownload className="text-xl" />
+                </Button>
+              </a>
+              <div className="mb-8 xl:mb-0">
+                <Social containerStyles="flex gap-6" iconStyles="w-9 h-9 border border-[#FF7A29] rounded-full flex justify-center items-center text-[#FF7A29] text-base hover:bg-[#FF7A29] hover:text-primary hover:trasnsition-all duration-500"></Social>
+              </div>
             </div>
           </div>
           {/* photo */}
