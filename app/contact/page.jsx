@@ -47,7 +47,7 @@ const Contact = () => {
             Contact Me<span className="text-[#FF7A29]">.</span>
           </h1>
           <p className="text-xl text-white/60 mt-4">
-            I'm here to help! Feel free to reach out via the contact form or through any of my contact details below.
+            I&apos;m here to help! Feel free to reach out via the contact form or through any of my contact details below.
           </p>
         </div>
 

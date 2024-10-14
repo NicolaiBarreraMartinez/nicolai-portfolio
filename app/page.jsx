@@ -18,7 +18,7 @@ const Home = () => {
               <span className="text-[#FF7A29]">Nicolai Barrera</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              I'm a 💻 Front-End and 📱 iOS Developer, 🌱 currently expanding my expertise by studying AI development
+              I&apos;m a 💻 Front-End and 📱 iOS Developer, 🌱 currently expanding my expertise by studying AI development
             </p>
             {/* Btn Socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
